@@ -2,7 +2,7 @@ import { Observable, of, from, fromEvent } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { map, mapTo, flatMap, startWith, delay, withLatestFrom, tap, throttleTime , catchError, take, filter} from "rxjs/operators";
 
-
+console.log();
 
 
 var refreshButton = document.querySelector('.refresh');

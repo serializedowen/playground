@@ -2,7 +2,7 @@ import { Observable, of, from, fromEvent } from 'rxjs';
 import { ajax } from 'rxjs/ajax';
 import { map, mapTo, flatMap, startWith, delay, withLatestFrom, tap, throttleTime , combineLatest, merge} from "rxjs/operators";
 
-
+console.log();
 
 const data = [
     {
